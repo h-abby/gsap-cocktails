@@ -4,8 +4,8 @@
 @import "tailwindcss";
 
 @font-face {
-    /* font-family: "Modern Negra";
-    src: url("/fonts/Modern Negra Demo.ttf") format("truetype"); */
+    font-family: "Modern Negra";
+    src: url("/fonts/Modern Negra Demo.ttf") format("truetype");
 }
 
 @theme {
@@ -62,7 +62,7 @@ body {
 
 @layer components {
     main {
-        @apply w-full overflow-x-hidden;
+        @apply w-full overflow-x-hidden ;
     }
 
     nav {
@@ -92,6 +92,7 @@ body {
     #hero {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
 
+     
         h1 {
             @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra;
         }
@@ -105,8 +106,8 @@ body {
         }
 
         .body {
-            @apply container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[30vh] flex justify-between items-end px-5;
-
+            /* @apply container  absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[30vh] flex justify-between items-end px-5; */
+               @apply container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[30vh] flex justify-between items-end px-5;
             .content {
                 @apply flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto;
 
