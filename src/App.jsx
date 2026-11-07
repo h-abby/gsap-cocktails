@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Cocktails from "./components/Cocktails";
 import About from "./About";
+import Art from "./components/Art";
 
 gsap.registerPlugin(useGSAP,ScrollTrigger,TextPlugin,SplitText);
 
@@ -18,6 +19,7 @@ function App() {
      <Hero/>
      <Cocktails/>
      <About/>
+     <Art/>
     </main>
   )
 }
