@@ -12,7 +12,6 @@ function Cocktails() {
         start: 'top 30%',
         end: 'bottom 80%',
         scrub: true,
-        markers:true
        }
       }).from('#c-left-leaf', {
          x: -100, y: 100,
