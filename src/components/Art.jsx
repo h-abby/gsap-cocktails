@@ -17,7 +17,6 @@ function Art() {
         start,
         end: "bottom center",
         scrub: 1.5,
-        markers: true,
         pin: true,
       },
     });
