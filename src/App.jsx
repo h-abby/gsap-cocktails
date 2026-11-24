@@ -9,6 +9,7 @@ import Cocktails from "./components/Cocktails";
 import About from "./About";
 import Art from "./components/Art";
 import Menu from "./components/Menu";
+import Footer from "./components/Footer";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger, TextPlugin, SplitText);
 
@@ -21,6 +22,7 @@ function App() {
       <About />
       <Art />
       <Menu />
+      <Footer/>
     </main>
   );
 }
